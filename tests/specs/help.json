@@ -8,7 +8,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "ℹ️ Tap /start to open the menu, then pick what you want from the buttons.\n\nEverything in this bot is reachable by tapping — you don't need to remember any commands."
+              "text": "Use the menu to view today’s research digest, look up a match, review anonymised history, or inspect a prediction.\n\nMatch IDs and search terms are the only details you need to type."
             }
           }
         ]

@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Request historical match data for team/player/match"
+              "text": "Choose the historical data you want to search."
             }
           }
         ],

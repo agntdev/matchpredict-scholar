@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Request model explanation for specific match prediction"
+              "text": "Send the match ID for the prediction you want explained."
             }
           }
         ],

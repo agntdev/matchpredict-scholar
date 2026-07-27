@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Admin-only system health check"
+              "text": "This status view is restricted to the research administrator."
             }
           }
         ],

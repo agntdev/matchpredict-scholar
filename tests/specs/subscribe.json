@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Subscribe to daily sports prediction digest"
+              "text": "Subscriptions aren’t set up yet. Please try again when persistent storage is available."
             }
           }
         ],
@@ -16,5 +16,9 @@
         }
       }
     ]
+  }
+  ,{
+    "name": "Subscribe menu button opens the flow",
+    "steps": [{ "send": { "callback": "subscribe:open" }, "expect": [{ "method": "editMessageText", "payload": { "text": "Subscriptions aren’t set up yet. Please try again when persistent storage is available." } }] }]
   }
 ]
