@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Request detailed prediction for specific match by ID"
+              "text": "Send the match ID you want to study."
             }
           }
         ],
@@ -16,5 +16,9 @@
         }
       }
     ]
+  }
+  ,{
+    "name": "Match menu button requests an ID",
+    "steps": [{ "send": { "callback": "match:open" }, "expect": [{ "method": "editMessageText", "payload": { "text": "Send the match ID you want to study." } }] }]
   }
 ]

@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Unsubscribe from daily digest"
+              "text": "Subscriptions aren’t set up yet. Please try again when persistent storage is available."
             }
           }
         ],
